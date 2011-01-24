@@ -1,0 +1,57 @@
+Laboratory Schedule Management System (which will from hereby be referenced as LSMS) is
+an important aspect in laboratory management and organization in general. LSMS manages the
+access to the laboratory room and resources inside. It keeps tracks of who is in the laboratory, for
+what period of time and all records of repair and maintenance. It is a simplified way of
+controlling usage and monitoring access of authorized and all intruder’s that might attempt to use
+the laboratory.
+
+
+INSTALLATION
+------------
+
+Please make sure the release file is unpacked under a Web-accessible
+directory. You shall see the following files and directories:
+
+      assets/               files 
+      css/           	    style sheets files
+      images/        	    image directory
+      proteted/		    protected contents of projets
+      themes/               Theme for interface
+      CHANGELOG             describing changes in every Lsms release
+      LICENSE               license of LSMS
+      README                this file
+      UPGRADE               Rupgrading instructions
+
+
+REQUIREMENTS
+------------
+
+The minimum requirement by Lsms is that your Web server supports
+PHP 5.1.0 or above. Lsms has been tested with Apache HTTP server
+on Windows and Linux operating systems.
+
+Please access the following URL to check if your Web server reaches
+the requirements by Lsms, assuming "Lsms Path" is where Lsms is installed:
+
+      http://hostname/{lsmsPath}/requirements/index.php
+
+
+QUICK START
+-----------
+You can access it with the following URL:
+
+        http://hostname/{lsmsPath}/testdrive/index.php
+
+
+WHAT's NEXT
+-----------
+
+Please visit the project website for tutorials, class reference
+and join discussions with other lsms developers at 
+http://groups.google.com/group/labolatory-scheduling-management-system
+
+
+
+The LSMS Developer Team
+UDSM-SICT
+Tanzania

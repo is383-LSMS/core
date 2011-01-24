@@ -1,0 +1,10 @@
+2011/01/21 23:29:14 [error] [system.db.CDbCommand] Error in querying SQL: SHOW COLUMNS FROM `tbl_user`
+in /var/www/yii/lsms/index.php (13)
+2011/01/21 23:30:34 [error] [system.db.CDbCommand] Error in querying SQL: SHOW COLUMNS FROM `tbl_user`
+in /var/www/yii/lsms/index.php (13)
+2011/01/21 23:40:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /var/www/yii/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(121): CWebApplication->runController('user')
+#1 /var/www/yii/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /var/www/yii/lsms/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yii/lsms/index.php?r=user
